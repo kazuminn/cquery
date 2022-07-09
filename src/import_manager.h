@@ -5,6 +5,8 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
+#include <mutex>
+
 
 enum class PipelineStatus {
   // The file is has not been processed by the import pipeline in any way.
